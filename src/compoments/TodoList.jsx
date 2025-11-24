@@ -52,7 +52,7 @@ function TodoList({todos, Delete, onToggle, onEdit, onUpdate}) {
 
 
 
-                {/* 수정중 목록 화면  */}
+                // 수정중 목록 화면
                 const editView = (
                 <li key={item.id} id={item.id}>
                   <input type="text" 
@@ -71,7 +71,7 @@ function TodoList({todos, Delete, onToggle, onEdit, onUpdate}) {
                 </li>
                 )
 
-                  {/* 출력 목록 화면  */}
+                  // 출력 목록 화면
                   const normalView = (
                   <li key={item.id} id={item.id}>
                    <input 

@@ -114,7 +114,7 @@ function deleteTodo(id) {
   return (
 
     <div className='app'>
-      <h1 className='title'>Todo List</h1>
+      <h1 className='title'>Todo List(해야 할 일)</h1>
       <div className='contents'>
 
         {/* 인풋 추가 영역  */}
